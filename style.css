@@ -30,6 +30,7 @@ body * {
 body {
   /*background: color image repeat position/size*/
   background: var(--bg-url) no-repeat top/cover;
+  height: 100vh;
 }
 
 #container {
