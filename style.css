@@ -172,3 +172,14 @@ footer {
   text-align: center;
   font-size: 14px;
 }
+
+/*MEDIA QUERIES*/
+@media (max-width: 450px) {
+   :root {
+    --bg-url: url(./assets/bg-mobile.jpg);
+   }
+
+   .light {
+    --bg-url: url(./assets/bg-mobile-light.jpg);
+   }
+}
