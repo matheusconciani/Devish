@@ -181,13 +181,13 @@ footer {
 
 /*MEDIA QUERIES*/
 @media (max-width: 450px) {
-   :root {
+  :root {
     --bg-url: url(./assets/bg-mobile.jpg);
-   }
+  }
 
-   .light {
+  .light {
     --bg-url: url(./assets/bg-mobile-light.jpg);
-   }
+  }
 }
 
 /*ANIMATIONS*/
