@@ -15,6 +15,47 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <header id="nav-bar">
+      <div id="logo">Devish</div>
+      <button id="login-btn">Login</button>
+    </header>
+
+    <div id="wrapper">
+      <span id="close-btn">
+        <ion-icon name="close-outline"></ion-icon>
+      </span>
+      <div id="login-box">
+        <h2 class="login-title">Login</h2>
+        <form action="#">
+          <div id="input-box">
+            <span id="icon">
+              <ion-icon name="mail-outline"></ion-icon>
+            </span>
+            <input type="email" required>
+            <label>Email</label>
+          </div>
+          <div id="input-box">
+            <span id="icon">
+              <ion-icon name="lock-closed-outline"></ion-icon>
+            </span>
+            <input type="password" required>
+            <label>Password</label>
+          </div>
+          <div id="remember-forgot-btn">
+            <label><input type="checkbox">
+            Lembrar senha</label>
+            <a href="#">Esqueceu a senha?</a>
+          </div>
+          <button type="subm" id="submit-btn">
+            Login
+          </button>
+          <div id="login-register">
+            <p>Não tem uma conta? <a href="#">Registrar</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+
     <div id="container">
       <div id="profile">
         <img src="./assets/avatar.jpg" alt="Imagem escolhida pelo usuário" />
@@ -22,8 +63,7 @@
         <p>@conciani</p>
       </div>
       <div id="switch" onclick="toggleMode()">
-        <button>
-        </button>
+        <button></button>
         <span></span>
       </div>
       <ul>
